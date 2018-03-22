@@ -1,20 +1,23 @@
-# vue-project
+# CesiumWebpackVueCli
 
-> A Vue.js project
+> A CesiumWebpackVueCli
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 安装cesium模块
+npm install cesium 
+
+# 运行开发环境
 npm run dev
 
-# build for production with minification
+# 编译
 npm run build
 
-# build for production and view the bundle analyzer report
+# 编译分析报告
 npm run build --report
 ```
 

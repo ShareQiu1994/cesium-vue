@@ -21,4 +21,5 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+#打开浏览器 localhost:8080 查看运行结果
+邮箱：421419567@qq.com  请右上角Start 万分感激!(^_^) 

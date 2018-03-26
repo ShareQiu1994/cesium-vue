@@ -19,9 +19,9 @@ npm run build
 
 # 编译分析报告
 npm run build --report
-```
 
 # 打开浏览器查看运行结果
 localhost:8080
+```
 
 邮箱：421419567@qq.com  请右上角Start 万分感激!(^_^) 

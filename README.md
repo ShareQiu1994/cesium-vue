@@ -21,5 +21,5 @@ npm run build
 npm run build --report
 ```
 
-#打开浏览器 localhost:8080 查看运行结果
+# 打开浏览器 localhost:8080 查看运行结果
 邮箱：421419567@qq.com  请右上角Start 万分感激!(^_^) 

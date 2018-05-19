@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/', 
+    assetsPublicPath: '/',  // './' 当前相对路径  '/' 域名根路径
 
     /**
      * Source Maps

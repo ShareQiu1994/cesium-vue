@@ -24,4 +24,7 @@ npm run build --report
 localhost:8080
 ```
 
+# 2018/5/19 更新
+1. 此处更新将编译后的cesium文件存储于 static文件夹中 避免编译后cesium静态文件夹过多造成过散乱。 
+
 邮箱：421419567@qq.com  请右上角Star 万分感激!(^_^) 

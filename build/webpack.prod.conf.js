@@ -35,6 +35,10 @@ const webpackConfig = merge(baseWebpackConfig, {
       'process.env': env,
       'CESIUM_BASE_URL': JSON.stringify('static') 
     }),
+    new webpack.optimize.CommonsChunkPlugin({
+            name: 'cesium',
+            minChunks: module => module.context && module.context.indexOf('cesium') !== -1
+    }),
     new UglifyJsPlugin({
       uglifyOptions: {
         compress: {

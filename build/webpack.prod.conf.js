@@ -30,14 +30,14 @@ const webpackConfig = merge(baseWebpackConfig, {
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
+     new webpack.optimize.CommonsChunkPlugin({
+            name: 'cesium',
+            minChunks: module => module.context && module.context.indexOf('cesium') !== -1
+     }),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
       'process.env': env,
       'CESIUM_BASE_URL': JSON.stringify('static') 
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-            name: 'cesium',
-            minChunks: module => module.context && module.context.indexOf('cesium') !== -1
     }),
     new UglifyJsPlugin({
       uglifyOptions: {

@@ -43,13 +43,13 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',  // './' 当前相对路径  '/' 域名根路径
+    assetsPublicPath: './',  // './' 当前相对路径  '/' 域名根路径
 
     /**
      * Source Maps
      */
 
-    productionSourceMap: true,
+    productionSourceMap:false, //是否开启编译后 生产.map文件 
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 

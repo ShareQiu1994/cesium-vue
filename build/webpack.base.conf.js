@@ -73,7 +73,9 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }
-    ]
+    ],
+    unknownContextCritical: false  //屏蔽警告
+    // unknownContextRegExp: /^.\/.*$/  
   },
   node: {
     // prevent webpack from injecting useless setImmediate polyfill because Vue

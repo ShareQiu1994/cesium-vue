@@ -9,11 +9,6 @@ import  widgets from'cesium/Widgets/widgets.css';
 
 export default {
   name: 'cesiumContainer',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
   mounted(){
   	 var viewer = new Cesium.Viewer('cesiumContainer');
   }

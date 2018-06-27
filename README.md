@@ -31,6 +31,6 @@ localhost:8080
 1.修复控制台Cesium警告 
 
 # 基于此框架的项目演示 
-[dms演示项目](http://183.62.251.45:10024/dms23d)  [jjsk](http://183.62.251.45:10024/jinjiang_platform/) 
+[dms演示项目](http://183.62.251.45:10024/dms23d)  [jjsk演示项目](http://183.62.251.45:10024/jinjiang_platform/) 
 
 邮箱：421419567@qq.com 请右上角Star 万分感激!(^_^)

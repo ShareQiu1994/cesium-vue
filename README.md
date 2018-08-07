@@ -20,6 +20,11 @@ npm run build --report
 # 打开浏览器查看运行结果
 localhost:8080
 ```
+# 基于该框架的演示项目 
+[大明山项目决策规划子系统](http://183.62.251.45:10024/dms23d2) 
+[大明山项目决策规划子系统](http://183.62.251.45:10024/dms23d) 
+[锦江水库三维实景系统](http://183.62.251.45:10024/MTcyLjE2LjEwLjUyOjgwOTcvZ2Vvc2VydmVy_platform) 
+
 # 浏览器兼容报告
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/webGL.png) 
 

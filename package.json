@@ -1,9 +1,9 @@
 {
-  "name": "vue-project",
+  "name": "cesium-vue",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "",
-  "private": true,
+  "description": "A Vue.js and Cesium project",
+  "author": "liubf",
+  "private": true, 
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

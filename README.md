@@ -1,6 +1,6 @@
-# CesiumWebpackVueCli
+# cesium-vue
 
-> A CesiumWebpackVueCli
+> 一个整合了Cesium的VueCli的脚手架工具
 
 ## Build Setup
 

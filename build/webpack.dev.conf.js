@@ -59,7 +59,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
-      favicon: './static/ico/favicon.ico',
+      favicon: path.resolve('favicon.ico'),
       inject: true
     }),
     new CopyWebpackPlugin([ { from: path.join(cesiumSource, cesiumWorkers), to: 'Workers' } ]),

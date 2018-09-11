@@ -25,10 +25,7 @@ localhost:8080
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/webGL.png) 
 
 # 开发环境
-![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/dev.gif) 
-
-# 生产环境(编译打包)
-![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/build.gif) 
+![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/dev.gif)  
 
 # 2018/5/19 更新
 1. 此处更新将编译后的cesium文件存储于 static文件夹中 避免编译后cesium静态文件夹过多造成过散乱。

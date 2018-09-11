@@ -24,7 +24,7 @@ localhost:8080
 # 浏览器兼容报告
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/webGL.png) 
 
-# 开发环境
+# 开发环境(npm run dev)
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/dev.gif)  
 
 # 2018/5/19 更新

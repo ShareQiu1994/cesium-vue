@@ -2,7 +2,7 @@
 
 > 一个整合了Cesium的VueCli的脚手架工具
 
-1.项目为VueCli+Cesium的纯净版，除了VueCli自带的模块，没有引入其他第三方模块。
+1.项目为VueCli+Cesium的纯净版，除了VueCli自带的模块和Cesium模块，没有引入其他第三方模块。
 
 2.根据您的项目需要，可以配置自己需要的模块，如Ui模块(ElementUi,museUi)等。
 

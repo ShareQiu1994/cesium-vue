@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "cesium": "^1.45.0",
+    "cesium": "^1.50.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

@@ -8,6 +8,9 @@
 
 3.建议开发者将写好的Cesium功能封装成一个独立的模块，而不是将cesium的属性赋值给Vue的data对象中(会造成一些性能问题)。 
 
+## Build Setup
+
+``` bash
 # 安装依赖
 npm install
 
@@ -22,6 +25,7 @@ npm run build --report
 
 # 打开浏览器查看运行结果
 localhost:8080
+```
 
 # 浏览器兼容报告
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/webGL.png) 

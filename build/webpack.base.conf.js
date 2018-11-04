@@ -4,7 +4,7 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 const cesiumSource = '../node_modules/cesium/Source';
-const cesiumWorkers = '../../Build/Cesium/Workers';
+
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -48,6 +48,20 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
+      },
+      {
+        //Strip cesium pragmas 删除编译指示
+        test: /\.js$/,
+        enforce: 'pre',
+        include: path.resolve(__dirname, cesiumSource),
+        use: [{
+          loader: 'strip-pragma-loader',
+          options: {
+            pragmas: {
+              debug: false
+            }
+          }
+        }]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

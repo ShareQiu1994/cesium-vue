@@ -1,4 +1,4 @@
-# cesium-vue
+# cesium-vue(基于vuecli2.x)
 
 > 一个整合了Cesium的VueCli的脚手架工具
 

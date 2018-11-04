@@ -1,6 +1,6 @@
 # cesium-vue(基于vuecli2.x)
 
-> 一个整合了Cesium的VueCli的脚手架工具
+> 一个整合了Cesium的VueCli2.x的脚手架工具
 
 1.项目为VueCli+Cesium的纯净版，除了VueCli自带的模块和Cesium模块，没有引入其他第三方模块。
 
@@ -8,9 +8,6 @@
 
 3.建议开发者将写好的Cesium功能封装成一个独立的模块，而不是将cesium的属性赋值给Vue的data对象中(会造成一些性能问题)。 
 
-## Build Setup
-
-``` bash
 # 安装依赖
 npm install
 
@@ -25,7 +22,6 @@ npm run build --report
 
 # 打开浏览器查看运行结果
 localhost:8080
-```
 
 # 浏览器兼容报告
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/webGL.png) 

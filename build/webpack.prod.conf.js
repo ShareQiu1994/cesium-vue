@@ -30,10 +30,6 @@ const webpackConfig = merge(baseWebpackConfig, {
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
-     new webpack.optimize.CommonsChunkPlugin({
-            name: 'cesium',
-            minChunks: module => module.context && module.context.indexOf('cesium') !== -1
-     }),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
       'process.env': env,
@@ -118,7 +114,10 @@ const webpackConfig = merge(baseWebpackConfig, {
       children: true,
       minChunks: 3
     }),
-
+    // new webpack.optimize.CommonsChunkPlugin({
+    //       name: 'cesium',
+    //       minChunks: module => module.context && module.context.indexOf('cesium') !== -1
+    // }),
     // copy custom static assets
     new CopyWebpackPlugin([
       {

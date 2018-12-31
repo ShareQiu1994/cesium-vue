@@ -45,7 +45,7 @@ localhost:8080
 2. devServer环境自动打开默认浏览器。 
 
 # 基于该框架的演示项目 
-[LBF WebEarth2](http://liubf.com/LBFWebearth2/)<br/>
+[LBF WebEarth2](http://liubf.com:8038/LBFWebearth2/)<br/>
 ![Image text](http://liubf.com/wp-content/uploads/2018/12/LJ12DR_Q2KI0YS14U4.jpg)<br/>
 [大明山项目决策规划子系统](http://liubf.com/dms23d2/)<br/>
 ![Image text](http://liubf.com/wp-content/uploads/2018/09/NAQ35FS48CDZ6XWYYBR5C-1024x576.jpg)<br/>

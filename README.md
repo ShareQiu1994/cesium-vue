@@ -47,9 +47,3 @@ localhost:8080
 # 基于该框架的演示项目 
 [LBF WebEarth2](http://liubf.com:8038/LBFWebearth2/)<br/>
 ![Image text](http://liubf.com/wp-content/uploads/2018/12/LJ12DR_Q2KI0YS14U4.jpg)<br/>
-[大明山项目决策规划子系统](http://liubf.com/dms23d2/)<br/>
-![Image text](http://liubf.com/wp-content/uploads/2018/09/NAQ35FS48CDZ6XWYYBR5C-1024x576.jpg)<br/>
-[大明山项目基础信息子系统](http://liubf.com/dms23d/)<br/>
-![Image text](http://liubf.com/wp-content/uploads/2018/09/7V@UZ2TOG9_WU9XY-1024x576.jpg)<br/>
-
-邮箱：421419567@qq.com 请右上角Star 万分感激!(^_^)

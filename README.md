@@ -33,7 +33,7 @@ localhost:8080
 # 运行开发环境
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/dev.gif)
 
-#分支
+# 分支
 方案有两个分支 master/global 可根据需要自行选择     
 
 # 2018/5/19 更新

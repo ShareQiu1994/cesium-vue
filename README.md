@@ -12,7 +12,7 @@
 
 ``` bash
 # 安装依赖
-npm install
+npm install / cnpm install (国内网络建议使用cnpm)
 
 # 运行开发环境
 npm run dev
@@ -31,7 +31,10 @@ localhost:8080
 ![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/webGL.png) 
 
 # 运行开发环境
-![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/dev.gif)  
+![Image text](https://raw.githubusercontent.com/ShareQiu1994/img-folder/master/dev.gif)
+
+#分支
+方案有两个分支 master/global 可根据需要自行选择     
 
 # 2018/5/19 更新
 1. 此处更新将编译后的cesium文件存储于 static文件夹中 避免编译后cesium静态文件夹过多造成过散乱。

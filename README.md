@@ -48,4 +48,4 @@ localhost:8080
 2. devServer环境自动打开默认浏览器。 
 
 # 2019/11/08 更新
-1. 在Cesium1.6x版本中 发现cesium不支持import 改用require (感谢网友：海纳百川提供问题)
+1. 在Cesium1.6x版本中 发现cesium不支持import 改用require 

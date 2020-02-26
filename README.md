@@ -49,7 +49,3 @@ localhost:8080
 
 # 2019/11/08 更新
 1. 在Cesium1.6x版本中 发现cesium不支持import 改用require (感谢网友：海纳百川提供问题)
-
-# 基于该框架的演示项目 
-[LBF WebEarth2](http://liubf.com/LBFWebearth2/)<br/>
-![Image text](http://liubf.com/wp-content/uploads/2018/12/LJ12DR_Q2KI0YS14U4.jpg)<br/>

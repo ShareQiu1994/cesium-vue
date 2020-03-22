@@ -1,5 +1,7 @@
 {
-  "name": "demo",
+  "name": "cesium-vue",
+  "description": "cesium-vue",
+  "author": "liubf",
   "version": "0.1.0",
   "private": true,
   "scripts": {

@@ -3,14 +3,14 @@
 </template>
 
 <script>
-import 'cesium/Widgets/widgets.css'
-const Cesium = require('cesium/Cesium')
+import 'cesium/Build/Cesium/Widgets/widgets.css'
+import { Viewer } from 'Cesium'
 
 export default {
   name: 'CesiumContainer',
   mounted() {
     /* eslint no-new: */
-    new Cesium.Viewer('cesiumContainer')
+    new Viewer('cesiumContainer')
   }
 }
 </script>

@@ -10,14 +10,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "cesium": "^1.66.0",
-    "jquery": "^3.4.1",
+    "cesium": "^1.68.0",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
     "vuex": "^3.1.2"
   },
   "devDependencies": {
+    "strip-pragma-loader": "^1.0.0",
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
     "@vue/cli-plugin-router": "~4.2.0",

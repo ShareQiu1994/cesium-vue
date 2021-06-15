@@ -7,7 +7,7 @@ module.exports = {
   publicPath: './',
   assetsDir: './static',
   productionSourceMap: false,
-  lintOnSave: true, // 是否开启eslint
+  lintOnSave: false, // 是否开启eslint
   devServer: {
     open: true
   },
@@ -67,7 +67,7 @@ module.exports = {
               test: /[\\/]node_modules[\\/]/,
               priority: -10,
               chunks: 'all',
-              name(module) {
+              name (module) {
                 const packageName = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/)[1]
                 return `npm.${packageName.replace('@', '')}`
               }
@@ -89,7 +89,6 @@ module.exports = {
       },
       resolve: {
         alias: {
-          vue$: 'vue/dist/vue.esm.js',
           '@': path.resolve('src')
         }
       },

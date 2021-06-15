@@ -1,18 +1,25 @@
+<!--
+ * @version: 1.0.0
+ * @Author: liubofang<421419567@qq.com>
+ * @Date: 2021-06-15 14:04:28
+ * @LastEditTime: 2021-06-15 14:25:43
+-->
 <template>
   <div id="cesiumContainer"></div>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from 'vue'
 import 'cesium/Build/Cesium/Widgets/widgets.css'
-import { Viewer } from 'Cesium'
+import { Viewer } from 'cesium'
 
-export default {
+export default defineComponent({
   name: 'CesiumContainer',
-  mounted() {
+  mounted () {
     /* eslint no-new: */
     new Viewer('cesiumContainer')
   }
-}
+})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

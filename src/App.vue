@@ -1,7 +1,11 @@
+<!--
+ * @version: 1.0.0
+ * @Author: liubofang<421419567@qq.com>
+ * @Date: 2021-06-15 13:56:00
+ * @LastEditTime: 2021-06-15 14:12:10
+-->
 <template>
-  <div id="app">
-    <router-view />
-  </div>
+  <router-view/>
 </template>
 
 <style lang="scss">

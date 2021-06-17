@@ -2,15 +2,17 @@
  * @version: 1.0.0
  * @Author: liubofang<421419567@qq.com>
  * @Date: 2021-06-15 15:24:11
- * @LastEditTime: 2021-06-15 15:41:51
+ * @LastEditTime: 2021-06-17 11:51:11
 -->
 <p align="center">
 <img src="https://github.com/CesiumGS/cesium/wiki/logos/Cesium_Logo_Color.jpg" width="50%" />
 </p>
 
   <p align="center">基于vueCli 4.x.x + 的cesium开发模板 (Cesium development template based on vueCli 4.x.x +)</p>
-  <p align="center">Version：Vuecli 4.5.x / Vue 3.0 / Typescript </p>
+  <p align="center">Version：Vuecli 4.5.x + / Vue 3.0 + </p>
+  <p align="center">Branch： <a href="https://github.com/ShareQiu1994/cesium-vue/tree/master">JavaScript </a> / <a href="https://github.com/ShareQiu1994/cesium-vue/tree/typescript">TypeScript</a> </p>
 
+  
 # cesium-vue
 
 ##  项目安装(Project setup)

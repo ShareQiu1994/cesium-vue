@@ -2,22 +2,24 @@
  * @version: 1.0.0
  * @Author: liubofang<421419567@qq.com>
  * @Date: 2021-06-15 15:08:22
- * @LastEditTime: 2021-06-15 15:42:32
+ * @LastEditTime: 2021-06-18 11:51:19
 -->
 <template>
   <div id="cesiumContainer"></div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, onMounted } from 'vue'
 import 'cesium/Build/Cesium/Widgets/widgets.css'
 import { Viewer } from 'cesium'
 
 export default defineComponent({
   name: 'CesiumContainer',
-  mounted () {
-    /* eslint no-new: */
-    new Viewer('cesiumContainer')
+  setup() {
+    onMounted(() => {
+      /* eslint no-new: */
+      new Viewer('cesiumContainer')
+    })
   }
 })
 </script>

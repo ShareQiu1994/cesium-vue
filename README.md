@@ -30,11 +30,11 @@ npm run serve / cnpm run serve / yarn serve
 npm run build / cnpm run build / yarn build
 ```
 
-### 注意事项
+### 注意事项 (Notices)
 
-模板默认采用Cesium 1.84，当你需要使用Cesium1.84以上版本时 建议使用 <p style="color:red;">yarn<p> 安装
+模板默认采用Cesium 1.84，当你需要使用Cesium1.84以上版本时 建议使用 **yarn** 安装
 
-The default template is cesium 1.84. When you need to install cesium 1.84 +, it is recommended to use the <p style="color:red;">yarn<p> installation
+The default template is cesium 1.84. When you need to install cesium 1.84 +, it is recommended to use the **yarn** installation
 
 ## 与我联系 (Stay in touch)
 

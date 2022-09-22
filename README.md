@@ -1,9 +1,3 @@
-<!--
- * @version: 1.0.0
- * @Author: liubofang<421419567@qq.com>
- * @Date: 2021-06-15 15:24:11
- * @LastEditTime: 2021-06-17 11:51:11
--->
 <p align="center">
 <img src="https://github.com/CesiumGS/cesium/wiki/logos/Cesium_Logo_Color.jpg" width="50%" />
 </p>
@@ -29,12 +23,6 @@ npm run serve / cnpm run serve / yarn serve
 ```
 npm run build / cnpm run build / yarn build
 ```
-
-### 注意事项 (Notices)
-
-模板默认采用Cesium 1.84，当你需要使用Cesium1.84以上版本时 建议使用 **yarn** 安装
-
-The default template is cesium 1.84. When you need to install cesium 1.84 +, it is recommended to use the **yarn** installation
 
 ## 与我联系 (Stay in touch)
 
